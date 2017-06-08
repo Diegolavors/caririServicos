@@ -97,7 +97,7 @@ input{
     /*    margin-bottom: 28px;*/
         font-size: 15px;
     }
-    hr{
+    .hr1{
         width: 80%;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -112,6 +112,16 @@ input{
     }
 }
 /*----------------FIM padCadastroTrabalhador ------------------------*/
+
+
+/*------------------ CADASTRO DADOS PESSOAIS --------------------------*/
+
+#hhr{
+    width: 100%;
+}
+/*------------------FIM CADASTRO DADOS PESSOAIS --------------------------*/
+
+
 
 navbar-brand{
     font-weight: 700;
