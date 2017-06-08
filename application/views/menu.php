@@ -46,7 +46,7 @@
                                 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
                                     <ul class="nav navbar-nav navbar-right corMenu" >
                                         <li><a href="<?php echo base_url("/ControllerLista/listar"); ?>">Serviços</a></li>
-                                        <li><a href="<?php echo base_url("./img/img_perf.png"); ?>">Trabalhador</a></li>
+                                        <li><a href="<?php echo base_url("/ControllerCadastro/cadTrabalhador"); ?>">Trabalhador</a></li>
                                         <li><a href="#">Quem Somos</a></li>
                                         <li><a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>">Cadastre-se</a></li>
                                         <li><a href="#"data-toggle="modal" data-target="#modal01">Entre</a></li>

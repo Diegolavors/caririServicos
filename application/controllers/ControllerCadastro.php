@@ -6,6 +6,10 @@ class ControllerCadastro extends CI_Controller {
         $this->load->view('menu');
         $this->load->view('pagCadastro');
     }
+      public function cadTrabalhador(){
+        $this->load->view('menu');
+        $this->load->view('pagCadTrabalhador');
+    }
 
     public function consultarEmail() {
         $this->load->Model('ModelCadastro', '', TRUE);
