@@ -5,14 +5,14 @@
 
         <meta charset="UTF-8">
         <title>Menu</title>
-        
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap-theme.min'); ?>">
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap.min.css'); ?>">
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/estilo2.css'); ?>">
- <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('/css/creative.css'); ?>">
+        <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('/css/creative.css'); ?>">
 
     </head>
     <body>  
@@ -48,7 +48,7 @@
                                     <ul class="nav navbar-nav navbar-right corMenu" >
                                         <li><a href="<?php echo base_url("/ControllerLista/listar"); ?>">Serviços</a></li>
                                         <li><a href="<?php echo base_url("/ControllerCadastro/cadTrabalhador"); ?>">Trabalhador</a></li>
-                                        <li><a href="#">Quem Somos</a></li>
+                                        <li><a href="<?php echo base_url("/ControllerSomos/quemSomos"); ?>">Quem Somos</a></li>
                                         <li><a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>">Cadastre-se</a></li>
                                         <li><a href="#"data-toggle="modal" data-target="#modal01">Entre</a></li>
 
@@ -64,18 +64,17 @@
         <!--Fim do menu -->
 
 
-        
+        <!--Janela Modal-->
         <div class="container">
             <div class="row">
                 <div class="col-xs-5 col-sm-7 col-lg-6">
-                    <!--Janela Modal-->
-                    
+
                     <?php echo validation_errors(); ?> 
-                    
+
                     <?php echo form_open('ControllerLogin/conferirLogin'); ?>
-                    
-                    
-                    
+
+
+
                     <div class="modal" id="modal01" role="dialog" tabindex="-1" aria-labelledby="myModalLabel"  style="top:100px;">
                         <div class="modal-dialog modal-sm " role="document">
                             <div class="modal-content">
@@ -100,18 +99,18 @@
                                     </div>
 
 
-                                   
-                                        <div class="col-xs-6 col-lg-6" >    
-                                            <input type="checkbox" name="salvarSenha" value="sim" checked=""> Lembrar-me  
-                                        </div>
-                                        <div class="col-xs-6 col-lg-6 text-right">
-                                            <a href="#">Esqueci minha senha</a>
-                                        </div>
-                                        <div class="col-xs-12 col-lg-12 espmodal" >
-                                            Ainda não está cadastrado?<small><a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>">Clique Aqui!</a>             
-                                        </div>
+
+                                    <div class="col-xs-6 col-lg-6" >    
+                                        <input type="checkbox" name="salvarSenha" value="sim" checked=""> Lembrar-me  
                                     </div>
-                                
+                                    <div class="col-xs-6 col-lg-6 text-right">
+                                        <a href="#">Esqueci minha senha</a>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-12 espmodal" >
+                                        Ainda não está cadastrado?<small><a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>">Clique Aqui!</a>             
+                                    </div>
+                                </div>
+
                                 <div class="modal-footer" style="border: none">
 
                                     <a href="#"> <button input type="submit" value="Login" name="Salvar" class="btn btn-primary btn-block">Entrar</button></a>
@@ -126,7 +125,7 @@
         <!-- /. Janela Modal-->
 
         <!-- chamando js-->
-       <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>
+        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>
         <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/bootstrap.min.js"); ?>"></script>
 
     </body>
