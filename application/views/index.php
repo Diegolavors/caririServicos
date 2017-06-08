@@ -15,8 +15,8 @@ and open the template in the editor.
 
         <title>Cariri Serviçoss</title>
 
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap-theme.min'); ?>">
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap.css'); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap-theme.min.css'); ?>">
+        <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap.min.css'); ?>">
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/estilo2.css'); ?>">
 
         <!-- Theme CSS -->
@@ -35,7 +35,7 @@ and open the template in the editor.
                         <div class="caixa">
 
                             <p>Encontre o profissional ideal</p>
-                            <p id="sloga">contrate os melhores profisionais sem sair de sua casa</p>
+                            <p id="sloga">Contrate os<strong> melhores profissionais</strong> sem sair de sua casa</p>
                             <div class="form-group form-group-lg">
                                 <div class=" col-xs-12 col-sm-11 col-md-11 col-lg-10 col-lg-offset-1 ">
 
@@ -58,7 +58,7 @@ and open the template in the editor.
 
         <!-- Theme JavaScript -->
         <script src="js/creative.min.js"></script>
-        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>
+     <!--    <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>-->
         <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/bootstrap.min.js"); ?>"></script>
 
 
