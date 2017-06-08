@@ -13,11 +13,23 @@
     <body>
 
         <!--Cabeçalho-->
+
         <section style="padding-top: 40px" class="text-center">
-            <h1><p>Seu Currículo</p></h1>
-            <h4><p>Efetue as etapas para concluir seu cadastro</p></h4>
-            <h5><p>Perfil  Escolaridade  Experiêcia</p></h5>
-            <hr>
+            <div class="col-lg-12">
+                <h1><p>Seu Currículo</p></h1>
+                <h4><p>Efetue as etapas para concluir seu cadastro</p></h4>
+                <div class="col-md-5 col-md-offset-4  col-lg-4 col-lg-offset-4"> 
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                            <span class="">40% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-12"> 
+                    <h5><p>Perfil  Escolaridade  Experiêcia</p></h5>
+                    <hr>
+                </div>
+            </div>
         </section>
         <!--Fim Cabeçalho-->
 
@@ -25,7 +37,7 @@
         <section>
             <div class="container-fluid" >
                 <div class= "col-xs-12 col-lg-12">
-                    <div class="col-lg-7 col-lg-offset-5 text-center" >
+                    <div class="col-lg-7 col-lg-offset-5 text-center">
                         <div class="form-group">
                             <input type="file" name="userfile" class="" size="20">
                         </div>                         
@@ -59,7 +71,7 @@
                         </div>
                         <div class="form-group">
                             <label for="Data_de_nascimento">Data de Nascimento:</label>
-                            <input type="date" class="form-control" name="dataNasc" onKeyPress="MascaraData(dataNasc);" maxlength="10" placeholder="data de nascimento" onBlur="ValidaDataform1.data);">
+                            <input type="text" class="form-control" name="dataNasc" onKeyPress="MascaraData(dataNasc);" maxlength="10" placeholder="data de nascimento" onBlur="ValidaDataform1.data);">
                         </div>
                         <div class="form-group">
                             <label for="Detalhe">Sobre você:</label>
