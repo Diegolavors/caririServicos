@@ -37,7 +37,10 @@ class ControllerLogin extends CI_Controller {
     }
 
     public function Erro() {
-       redirect('Controller/index');
+        $this->load->view('loginError');
+        
+       
+       
     }
 
 }

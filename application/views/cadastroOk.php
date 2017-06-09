@@ -7,8 +7,11 @@
     </head>
     <body>
         <script>
-        alert("Cadastrado com sucesso!");
-        document.write("Cadastro OK!");
-        </script>
+
+alert('login ou senha incorreta');
+
+window.location=('controller/index');
+
+</script>
     </body>
 </html>

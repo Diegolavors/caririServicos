@@ -93,12 +93,10 @@
                                     <div class="form-group">
                                         <input type="text" name="Usuario" placeholder="Usuário" class="form-control" maxlength="50" required>
                                     </div>
-                                    Senha
+                                    Senha:
                                     <div class="form-group">
                                         <input type="password" name="Senha" placeholder="Senha" class="form-control" maxlength="50" required>
                                     </div>
-
-
 
                                     <div class="col-xs-6 col-lg-6" >    
                                         <input type="checkbox" name="salvarSenha" value="sim" checked=""> Lembrar-me  
