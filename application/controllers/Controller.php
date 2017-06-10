@@ -8,6 +8,8 @@
 
 class Controller extends CI_Controller {
 
+    
+    
     function index() {
         $this->load->view('menu');
         $this->load->view('index');

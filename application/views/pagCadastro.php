@@ -128,7 +128,7 @@
                         </div
                         <br>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-block btn-primary" value="Enviar">
+                            <a href="<?php echo base_url('ControllerCadastro/escolaridade'); ?>"> <input type="submit" class="btn btn-block btn-primary" value="Enviar"></a>
                         </div>
                         <?php echo form_close(); ?>
                     </div>

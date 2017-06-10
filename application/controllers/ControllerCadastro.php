@@ -10,7 +10,14 @@ class ControllerCadastro extends CI_Controller {
         $this->load->view('menu');
         $this->load->view('pagCadTrabalhador');
     }
-
+      public function escolaridade(){
+        $this->load->view('menu');
+        $this->load->view('pagCadastroEscolaridade');
+    }
+      public function experiencia(){
+        $this->load->view('menu');
+        $this->load->view('pagCadExperiencia');
+    }
     public function consultarEmail() {
         $this->load->Model('ModelCadastro', '', TRUE);
         $EmailResult = $this->model->buscarEmail($this->input->post('Email'));

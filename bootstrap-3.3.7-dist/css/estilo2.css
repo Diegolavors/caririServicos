@@ -125,8 +125,18 @@ input{
 }
 /*------------------FIM CADASTRO DADOS PESSOAIS --------------------------*/
 
+/*----------------------- Cabeçalho dos cadastro --------------------*/
 
 
+
+.space{
+   
+font-size: 15px;
+    word-spacing: 35px;
+}
+
+
+/*-----------------------FIM Cabeçalho dos cadastro --------------------*/
 navbar-brand{
     font-weight: 700;
     
