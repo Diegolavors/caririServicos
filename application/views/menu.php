@@ -78,30 +78,30 @@
                     <div class="modal" id="modal01" role="dialog" tabindex="-1" aria-labelledby="myModalLabel"  style="top:100px;">
                         <div class="modal-dialog modal-sm " role="document">
                             <div class="modal-content">
-                                <div class="modal-header" >
+                                <div class="modal-header pageModal" >
 
                                     <button type="button" class="close" data-dismiss="modal">
-                                        <span aria-hidden="true">&times;</span>
+                                        <span aria-hidden="true" style="color:white;opacity: 1;">&times;</span>
                                         <span class="sr-only">Fechar Janela Modal</span>
                                     </button>
-                                    <h4 class="modal-title text-center">Informe seus Dados</h4> 
+                                    <h4 class="modal-title text-center"><img src="<?php echo base_url('/img/icones/cadeado.png'); ?>" class="headerModal">Informe seus Dados</h4> 
                                 </div>
 
                                 <div class="modal-body fontt">
 
-                                    Login:
+                                    <label for="login"  class="botaoInput">Login:</label>
                                     <div class="form-group">
-                                        <input type="text" name="Usuario" placeholder="Usuário" class="form-control" maxlength="50" required>
+                                        <input type="text" name="Usuario" id="login" placeholder="Usuário" class="form-control" maxlength="50" required>
                                     </div>
-                                    Senha:
+                                    <label for="senha" class="botaoInput">Senha:</label>
                                     <div class="form-group">
-                                        <input type="password" name="Senha" placeholder="Senha" class="form-control" maxlength="50" required>
+                                        <input type="password" id="senha" name="Senha" placeholder="Senha" class="form-control" maxlength="50" required>
                                     </div>
 
-                                    <div class="col-xs-6 col-lg-6" >    
+                                    <div class="col-xs-6 col-lg-5" >    
                                         <input type="checkbox" name="salvarSenha" value="sim" checked=""> Lembrar-me  
                                     </div>
-                                    <div class="col-xs-6 col-lg-6 text-right">
+                                    <div class="col-xs-6 col-lg-7 text-right">
                                         <a href="#">Esqueci minha senha</a>
                                     </div>
                                     <div class="col-xs-12 col-lg-12 espmodal" >
@@ -111,7 +111,7 @@
 
                                 <div class="modal-footer" style="border: none">
 
-                                    <a href="#"> <button input type="submit" value="Login" name="Salvar" class="btn btn-primary btn-block">Entrar</button></a>
+                                    <a href="#"> <button input type="submit" value="Login" name="Salvar" class="btn btn-primary btn-block botaoLogin"><img src="<?php echo base_url('/img/icones/login.png'); ?>"  class="headerModal">Entrar</button></a>
         <!--                            <a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>"><button type="button" class="btn btn-danger btn-block">Entrar</button></a>-->
                                 </div>
                             </div>

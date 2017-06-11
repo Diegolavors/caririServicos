@@ -62,15 +62,10 @@ header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
 header .header-content .header-content-inner p {
-    font-weight:100;
+    
     color:#162766;
     font-size: 20.1px;
-    font-weight: 300;
-    /*  margin: 0px auto;
-      color: #162766;
-      
-      
-      margin-bottom: 50px;*/
+    font-weight:900;
 }
 #sloga{
     font-size: 16px;
@@ -81,7 +76,10 @@ input{
     opacity: 1;
     margin-bottom: 10px;
 }
-
+.botaoProcurar{
+   word-spacing: 8px;
+   font-size: 20px;
+}
 navbar-brand{
     font-weight: 700;
 }
@@ -120,7 +118,7 @@ navbar-brand{
 
     #sloga{
         font-size: 20px;
-        font-weight: 100;
+        font-weight:400;
         color: #4B4B4D;
     }
 

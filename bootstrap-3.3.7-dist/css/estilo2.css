@@ -22,8 +22,23 @@ body{
 
 
 /*--------------------------- Modal------------------*/
+
+.pageModal{
+    background-color: #000f68;
+    color: white;
+}
+.botaoInput{
+    font-size: 14px;
+}
+.botaoLogin{
+    font-size: 15px;
+}
+
+.headerModal{
+   margin-right: 10px;
+}
 .fontt{
-    font-size: 10px;
+    font-size: 12px;
     color: #222;
 }
 .fontloginerror{
@@ -32,10 +47,14 @@ body{
 }
 
 .espmodal{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 #mdfooter{
     margin-top: 5px;
+}
+@media (min-width: 768px) {
+
 }
 /*---------------------------- FIm Modal--------------------*/
 
@@ -80,6 +99,9 @@ input{
     margin-bottom:15px;
 }
 
+.botaoSalvar{
+    word-spacing: 10px;
+}
 
 @media (min-width: 768px) {
     .page{
@@ -152,15 +174,13 @@ input{
 
 @media (min-width: 768px){
     .titulodadosPessoais{
-  
     font-size: 15px;
-    
     height: 40px;
     border-radius: 3px;
     text-align: center;
     margin-bottom: 5px;
     padding-top: 8px;
-      margin-top: 10px;
+    margin-top: 10px;
 }
     .pageDadosPessoais{
         background-color: #fff;

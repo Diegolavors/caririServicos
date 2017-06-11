@@ -52,7 +52,7 @@
                                 <input type="text" class="form-control" placeholder="*Confirme a senha" required="">
                             </div>
                             <div class="form-group-lg">
-                                <button class="btn btn-primary btn-lg btn-block" >Cadastrar</button>
+                                <button class="btn btn-primary btn-lg btn-block botaoSalvar"><span class="glyphicon glyphicon-save"></span> Cadastrar</button>
                             </div>
                         </div>
                     </div>

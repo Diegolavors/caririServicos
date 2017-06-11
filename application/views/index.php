@@ -38,9 +38,10 @@ and open the template in the editor.
 
                                     
                                         <input type="text" class="form-control" placeholder="Serviço ex: pedreiro,babá,eletricisita">
-
-                                        <input type="text" class="form-control" placeholder="Selecione a cidade">
-                                        <button class="btn btn-primary btn-block btn-md">Buscar</button>
+                                          <input type="text" class="form-control" placeholder="Selecione a cidade">
+                                      
+                                      
+                                        <button class="btn btn-primary btn-block btn-md botaoProcurar" ><span class="glyphicon glyphicon-search"></span> Procurar</button>
                                   
                                 </div>
                             </div>

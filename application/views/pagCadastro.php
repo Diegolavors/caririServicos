@@ -39,7 +39,8 @@
                 <div class= "col-xs-12 col-lg-12">
                     <div class="col-xs-5 col-lg-7 col-lg-offset-5 text-center">
                         <div class="form-group">
-                            <input type="file" name="userfile" class="" size="20">
+                       <!--     <input type="file" name="userfile" class="" size="20">
+                            <img src="<?php echo base_url('/img/imgPerfil.png');?>">Michel-->
                         </div>                         
                     </div>
                     <div class="col-xs-12 col-lg-12">
@@ -54,7 +55,7 @@
         <!--Formulario dados Pessoais-->
         <section>
             <?php echo form_open_multipart('ControllerCadastro/cadastro'); ?>
-            <div class="container" style="padding-top: 30px;margin-bottom: 80px;">
+            <div class="container" style="padding-top: 30px;margin-bottom: 40px;">
                 <div class="row">                  
                     <div class="col-xs-12 col-md-12 col-lg-11 col-lg-offset-1">
 
@@ -88,7 +89,7 @@
                                 <input type="radio" class="" name="Sexo" id="Sexo" value="3" required=""/>Outros
                             </div>
                             <div class="form-group col-lg-12 hidden-xs">
-                                <a href="<?php echo base_url('ControllerCadastro/escolaridade'); ?>"> <input type="submit" class="btn btn-block btn-primary" value="Enviar"></a>
+                               <button type="submit" class="btn btn-block btn-primary glyphicon glyphicon-saved"> Continuar</button>
                             </div>
                         </div>
                         <!--Fim do lado Esquerdo-->
@@ -129,7 +130,7 @@
                         <!--Fim Lado Direito--> 
 
                         <div class="form-group col-lg-12 visible-xs">
-                            <a href="<?php echo base_url('ControllerCadastro/escolaridade'); ?>"> <input type="submit" class="btn btn-block btn-primary" value="Enviar"></a>
+                                <button type="submit" class="btn btn-block btn-primary glyphicon glyphicon-saved"> Continuar</button>
                         </div>
 
                         <?php echo form_close(); ?>
