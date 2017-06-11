@@ -92,7 +92,6 @@
 
 
         <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/js.js"); ?>"></script>
-        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>
-        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/bootstrap.min.js"); ?>"></script>
+     
     </body>
 </html>

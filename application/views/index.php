@@ -15,10 +15,7 @@ and open the template in the editor.
 
         <title>Cariri Serviçoss</title>
 
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap-theme.min'); ?>">
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/bootstrap.min.css'); ?>">
-        <link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url('bootstrap-3.3.7-dist/css/estilo2.css'); ?>">
-
+      
         <!-- Theme CSS -->
         <link href="css/creative.css" rel="stylesheet">
 
@@ -40,7 +37,7 @@ and open the template in the editor.
                                 <div class=" col-xs-12 col-sm-11 col-md-11 col-lg-10 col-lg-offset-1 ">
 
                                     
-                                        <input type="text" class="form-control" placeholder="Procure aqui o serviço">
+                                        <input type="text" class="form-control" placeholder="Serviço ex: pedreiro,babá,eletricisita">
 
                                         <input type="text" class="form-control" placeholder="Selecione a cidade">
                                         <button class="btn btn-primary btn-block btn-md">Buscar</button>
@@ -58,9 +55,7 @@ and open the template in the editor.
 
         <!-- Theme JavaScript -->
         <script src="js/creative.min.js"></script>
-       <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>
-        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/bootstrap.min.js"); ?>"></script>
-
+      
 
     </body>
 </html>

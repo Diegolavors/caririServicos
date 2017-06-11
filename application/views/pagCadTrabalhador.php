@@ -46,10 +46,10 @@
                                 <input type="text" class="form-control" placeholder="*Email" required="">
                             </div>
                             <div class="form-group-lg">
-                                <input type="text" class="form-control" placeholder="*Informe a cidade"required="">
+                                <input type="text" class="form-control" placeholder="*senha"required="">
                             </div>
                             <div class="form-group-lg">
-                                <input type="text" class="form-control" placeholder="*Qual serviço o senhor exerce?" required="">
+                                <input type="text" class="form-control" placeholder="*Confirme a senha" required="">
                             </div>
                             <div class="form-group-lg">
                                 <button class="btn btn-primary btn-lg btn-block" >Cadastrar</button>
@@ -66,8 +66,6 @@
         </section>
         <!--Fim Corpo-->
         
-        <!-- chamando js-->
-        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/jquery-3.2.1.min.js"); ?>"></script>
-        <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/bootstrap.min.js"); ?>"></script>
+
     </body>
 </html>
