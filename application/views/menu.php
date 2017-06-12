@@ -20,9 +20,9 @@
 
         <!--Começo menu -->
         <section>  
-            <nav class="navbar navbar-default navbar-fixed-top " role="navigation">
+            <nav class="navbar navbar-default navbar-fixed-top " role="navigation" >
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="row"  style="height: 60px; ">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
 
                             <!--CABEÇALHO DO MENU-->
@@ -37,7 +37,7 @@
                                     <span class="icon-bar"></span>
                                 </button>
                                 <!--NOME QUE FICA NO MENU,PODE COLOCAR UM LOGO AQUUI-->
-                                <a class="navbar-brand" href="<?php echo base_url(''); ?>">Cariri Serviços</a>
+                                <a class="navbar-brand" href="<?php echo base_url(''); ?>"><img src="<?php echo base_url('/img/logo4.png'); ?>"></a>
                             </div>
                             <!-- FIM CABEÇALHO DO MENU-->
                             <!--essa DIV faz com que aO diminuir a pagina todos os campos do menu desapareça e vá parar no icone
@@ -45,7 +45,7 @@
                            e ele que faz a comunicação-->
                             <div class="collapse navbar-collapse marcacao" id="bs-example-navbar-collapse-1">
                                 <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
-                                    <ul class="nav navbar-nav navbar-right corMenu" >
+                                    <ul class="nav navbar-nav navbar-right" style="padding-top:8px;" >
                                         <li><a href="<?php echo base_url("/ControllerLista/listar"); ?>">Serviços</a></li>
                                         <li><a href="<?php echo base_url("/ControllerCadastro/cadTrabalhador"); ?>">Profissional</a></li>
                                         <li><a href="<?php echo base_url("/ControllerSomos/quemSomos"); ?>">Quem Somos</a></li>
